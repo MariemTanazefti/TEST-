@@ -8,8 +8,8 @@ public class TestSomme {
     @Test
     public void addition(){
         Somme somme=new Somme();
-        int result = somme.add(4,2);
-        int expected = 6;
+        int result = somme.add(4,1);
+        int expected = 5;
         assertEquals(expected, result);
     }
 }
